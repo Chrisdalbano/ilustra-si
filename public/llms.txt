@@ -1,0 +1,14 @@
+# ilustra.si
+
+Turn a photo into a pen-and-ink illustration drawn stroke by stroke, then export plotter-ready SVG.
+
+All rendering runs client-side in the browser in a Web Worker. Photos are not uploaded. There is no AI model, machine learning inference, or rendering service. The core is dependency-free TypeScript computational geometry.
+
+Algorithms:
+- Stipple: density-weighted Voronoi stippling with Lloyd relaxation and grid-accelerated nearest search.
+- One line: spatial-grid nearest-neighbour travelling-salesman tour with budgeted 2-opt improvement.
+- Hatch: tone-thresholded layered cross-hatching, clipped into runs with seeded wobble.
+- Contour: gradient-perpendicular streamlines with Jobard-Lefer style spacing and seeding.
+- Scribble: one continuous looping path with tone-dependent radius and traversal speed.
+
+https://ilustra.si/
