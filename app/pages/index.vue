@@ -258,6 +258,7 @@ const stats = computed(() => {
 
     <footer class="foot">
       <a href="https://chrisdalbano.com">Made by Chris D'Albano</a>
+      <span>The domain ilustra.si is for sale. <a href="https://chrisdalbano.com">Get in touch</a>.</span>
       <a href="/llms.txt">llms.txt</a>
     </footer>
   </div>
