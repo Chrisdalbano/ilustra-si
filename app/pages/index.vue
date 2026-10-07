@@ -177,7 +177,7 @@ const stats = computed(() => {
   <div class="page">
     <header class="top">
       <a href="/" class="mark">ilustra.si</a>
-      <nav><a href="#how">How it works</a></nav>
+      <nav><a href="#how">How it works</a><a href="/flint-hills">π, drawn in ink</a></nav>
     </header>
 
     <section class="hero">
@@ -277,6 +277,7 @@ const stats = computed(() => {
   padding: 28px 0;
 }
 .mark { font-weight: 700; font-size: 20px; letter-spacing: -0.02em; color: var(--fg-primary); text-decoration: none; }
+.top nav { display: flex; gap: 20px; }
 .top nav a { color: var(--fg-secondary); font-size: 15px; text-decoration: none; }
 .top nav a:hover { color: var(--fg-primary); }
 .hero {

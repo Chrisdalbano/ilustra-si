@@ -21,7 +21,7 @@ const jsonLd = {
 export default defineNuxtConfig({
   compatibilityDate: '2026-09-01',
   ssr: true,
-  nitro: { preset: 'github-pages' },
+  nitro: { preset: 'github-pages', prerender: { routes: ['/flint-hills'] } },
   css: ['@fontsource-variable/inter', '~/assets/css/tokens.css', '~/assets/css/main.css'],
   app: {
     head: {

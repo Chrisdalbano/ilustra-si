@@ -11,4 +11,6 @@ Algorithms:
 - Contour: gradient-perpendicular streamlines with Jobard-Lefer style spacing and seeding.
 - Scribble: one continuous looping path with tone-dependent radius and traversal speed.
 
+Experiment page: https://ilustra.si/flint-hills draws the Flint Hills series 1/(n^3 sin^2 n) for n up to 10^7 as a log-log skyline with the same pen engine, after the September 2026 result that the irrationality exponent of pi is 2 (openai/math family 017). Spike heights at the convergents p_k/q_k of pi follow (alpha_{k+1} + q_{k-1}/q_k)^2 / (pi^3 q_k).
+
 https://ilustra.si/
